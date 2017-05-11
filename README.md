@@ -1,10 +1,21 @@
-## Assignment 1: Research 
+## Assignment 1: Research StatsD & Graphana
 - Input:
   - Become familiar with the concept of Telememetry in systems. 
+  - Become familiar with StatsD and Graphana. 
 - Output: 
   - Put 10 minute presentation explaining the highlights of what you have learned, including diagram showing 
+- Suggestions:
+  - Get on youtube and look for talks from industry conferences. There are many and you can find really good ones.
 
-## Assignment 2: POC (Proof of Concept) 
+## Assignment 2: Research Docker
+- Input:
+  - Become familiar with what docker is and how to run it. 
+- Output: 
+  - You will be using it in assignment 3. 
+- Suggestions:
+  - Get on youtube and look for talks from industry conferences. Then download and try using it.
+  
+## Assignment 3: POC (Proof of Concept) 
 - Input:
   - Using Docker, set up an environment with StatsD, Graphana and the program created in a prior assigment.
 - Output: 
