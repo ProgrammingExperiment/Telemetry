@@ -19,7 +19,10 @@
 - Input:
   - Using Docker, set up an environment with StatsD, Graphana and the program created in a prior assigment.
 - Output: 
-  - Run the program and demostrate how Graphana works by showing dashboards with statistics.
+  - Run the program and demostrate how Graphana works by showing dashboards with at least one example of each of the following:
+    -  Guague
+    -  Timer
+    -  Counter
 
 ## Books to reference 
 
