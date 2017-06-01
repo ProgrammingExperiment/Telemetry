@@ -1,7 +1,27 @@
-FROM ubuntu:14.04
-RUN apt-get -y update && apt-get -y upgrade
-
-RUN wget https://github.com/obfuscurity/synthesize/archive/master.zip
-RUN unzip master.zip
-RUN cd synthesize-master/ && sudo ./install
-
+#!/bin/bash
+START=1
+END=1000
+echo "Countdown"
+ 
+for (( c=$START; c<=$END; c++ ))
+do
+        echo  "line for you" > $c.txt
+        if (($c % 31 == 0));
+        then
+                echo  "if line for you" >> $c.txt
+        fi
+        if (($c % 25 == 0));
+        then
+                echo  "case line for you" >> $c.txt
+        fi
+        if (($c % 10 == 0));
+        then
+                for ((LINES=0; LINES<=$c; LINES++ ))
+                do
+                        echo  " line for you" >> $c.txt
+                done
+        fi
+done
+ 
+echo
+echo "Boom!"
